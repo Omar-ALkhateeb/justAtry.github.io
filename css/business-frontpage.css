@@ -29,7 +29,7 @@ body {
   min-height: 220px;
   padding-top: 66px;
   background: url(puzzle-piece-solid.svg) center no-repeat scroll;
-  background-position: 51% 33%;
+  background-position: 51% 41%;
   background-size: 110px;
 }
 
@@ -98,6 +98,7 @@ footer{
 #loading p{
   position: absolute;
   transform: translate(-50%,-50%);
+  color: #ccc;
   left: 50%;
   top: 50%;
 }
