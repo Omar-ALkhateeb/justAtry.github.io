@@ -107,12 +107,12 @@
       <!-- /.row -->
 
       <div class="row">
-        <div class="col my-4" id="Events">
+        <div class="col" id="Events">
           <div class="card">
             <div class="video">
             <iframe class="card-img-top" width="560" height="315" src="https://www.youtube.com/embed/WtgGzKRHT-Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
             <div class="card-body">
-              <h4 class="card-title">What happens to children with autism, when they become adults?</h4>
+              <h4 class="card-title">Autistic kids in adulthood</h4>
               <p class="card-text">Kerry Magro is an award winning national speaker and best-selling author. Kerry has become a role model in the disabled community.</p>
             </div>
             <div class="card-footer">
@@ -120,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="col my-4">
+        <div class="col">
           <div class="card">
             <div class="video">
             <iframe width="560" height="315" class="card-img-top" src="https://www.youtube.com/embed/0idZghw97dc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
@@ -167,6 +167,7 @@
       </div></div></div>
       <!-- /.container -->
     </footer>
+    <div id="loading"><p>Loading</p></div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -178,6 +179,14 @@
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
+
+    //var loading = document.getElementById("loading");
+    //var body = document.getElementsByTagName("body");
+    window.onload=function removeElement(loading) {
+      // Removes an element from the document.
+      var element = document. getElementById("loading");
+      element. parentNode. removeChild(element);
+      }
     </script>
 
   </body>
