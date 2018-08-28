@@ -91,7 +91,10 @@ footer{
 }
 
 
-#loading{
+.loading{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
   position: fixed;
   top: 0;
   left: 0;
@@ -102,10 +105,15 @@ footer{
   overflow: hidden;
 }
 
-#loading p{
+.loading div{
   position: absolute;
   transform: translate(-50%,-50%);
   color: #ccc;
   left: 50%;
   top: 50%;
+}
+
+.loading div p{
+  display: none;
+  display: inline-block;
 }
