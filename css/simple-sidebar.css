@@ -189,8 +189,16 @@ body {
 
 .hr{
   margin-bottom: 20px;
+  margin-top: 19px;
 }
 
 .para{
   padding-top: 10px;
+}
+
+.mySize{
+  max-width: 130px;
+  max-height: 130px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }

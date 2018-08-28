@@ -1,0 +1,9 @@
+
+.rounded-circle{
+	max-width: 160px;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
