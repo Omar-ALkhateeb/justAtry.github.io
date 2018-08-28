@@ -5,6 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -33,7 +34,7 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav bg-light">
-                <li class="sidebar-brand">
+                <li class="sidebar-brand" data-aos="fade-right">
                     <a href="#" class="logo">
                        For Autism
                     </a>
@@ -84,7 +85,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-sm-8  start">
+        <div class="col-sm-8 start">
           <h2 class="mt-4 hr" id="Overview">What We Do</h2>
           <p>The mission of the Autism Research Institute is to improve the health and well-being of people on the autism spectrum through research and the education of professionals, those who are affected, and their families.</p>
           <p>While causes of ASD remain unclear, recent scientific advances challenge the traditional view of autism as an untreatable disease as one that is “genetically hard-wired.” These developments support the position that Autism Research Institute (ARI) has always maintained:</p><p> Autism Is Treatable. Established in 1967 by psychologist and renowned father of modern autism research Dr.
@@ -213,7 +214,7 @@
   <script>
     AOS.init({
   // Global settings
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
   startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
   initClassName: 'aos-init', // class applied after initialization
   animatedClassName: 'aos-animate', // class applied on animation
