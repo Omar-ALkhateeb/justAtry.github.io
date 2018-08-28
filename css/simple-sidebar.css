@@ -1,10 +1,12 @@
 
 body {
   overflow-x: hidden;
+  width: 100%;
 }
 
 #wrapper {
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
   position: absolute;
   top: -1%;
   left: -1%;
@@ -13,6 +15,8 @@ body {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   z-index: 2;
+  overflow-x: hidden;
+  width: 70%;
 }
 
 #wrapper.toggled {
@@ -194,11 +198,4 @@ body {
 
 .para{
   padding-top: 10px;
-}
-
-.mySize{
-  max-width: 130px;
-  max-height: 130px;
-  padding-bottom: 10px;
-  padding-top: 20px;
 }
